@@ -1,0 +1,120 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #001f3f; /* Fondo azul oscuro */
+    color: #ffffff;
+    margin: 0;
+}
+
+.terminal-container {
+    background-color: #333;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.terminal-header {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #444;
+}
+
+.terminal-buttons {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.terminal-buttons span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.close {
+    background-color: #ff5f56;
+}
+
+.minimize {
+    background-color: #ffbd2e;
+}
+
+.maximize {
+    background-color: #27c93f;
+}
+
+.code-container {
+    display: flex;
+    background-color: #000;
+    border-radius: 8px;
+    height: 250px;
+    overflow-y: auto;
+    color: #00ff00;
+    font-size: 14px;
+    line-height: 1.5; /* Ajustar la altura de línea para alinear números */
+}
+
+.line-numbers {
+    text-align: right;
+    padding-right: 10px;
+    user-select: none;
+    color: #888;
+    line-height: 1.5; /* Ajustar la altura de línea para alinear números */
+    overflow: hidden; /* Para evitar que aparezca la barra de desplazamiento */
+}
+
+.terminal-input {
+    background-color: #000;
+    border: none;
+    border-radius: 8px;
+    padding: 0 10px;
+    width: calc(100% - 40px); /* Ajustar para que se alinee con los números de línea */
+    height: 100%;
+    color: #00ff00;
+    font-size: 14px;
+    resize: none;
+    overflow-y: auto;
+    line-height: 1.5; /* Ajustar la altura de línea para alinear texto */
+}
+
+.compile-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.compile-button:hover {
+    background-color: #0056b3;
+}
+
+.terminal {
+    background-color: #000;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 150px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    color: #00ff00;
+    font-size: 14px;
+    line-height: 1.5; /* Ajustar la altura de línea para alinear texto */
+}

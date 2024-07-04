@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fara Compilator</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="terminal-container">
+        <div class="terminal-header">
+            <div class="terminal-buttons">
+                <span class="close"></span>
+                <span class="minimize"></span>
+                <span class="maximize"></span>
+            </div>
+            <h2>Fara Compilator</h2>
+        </div>
+        <div class="code-container">
+            <div class="line-numbers" id="lineNumbers"></div>
+            <textarea id="Input" spellcheck = "false" class="terminal-input" placeholder="Escribe tu código aquí..." oninput="updateLineNumbers()" onscroll="syncScroll()"></textarea>
+        </div>
+        <button id="run" class="compile-button">Compilar</button>
+        <div id="output" class="terminal" ></div>
+        
+    </div>
+    <script src="App.js" type="module" ></script>
+    <script src="script.js" ></script>
+    <script src="scanner.js" type="module"></script>
+    <script src="parser.js" type="module"></script>
+    
+    
+</body>
+
+</html>
