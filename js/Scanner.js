@@ -1,4 +1,6 @@
+import {} from './Fun_Adic.js';
 import * as fa from './Fun_Adic.js';
+
 
 export class Scanner {
     constructor(cadenaFuente) {
