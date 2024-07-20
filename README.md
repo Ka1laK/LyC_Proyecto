@@ -2,8 +2,7 @@
 ## DESCRIPCION
 
 
-Este proyecto consiste en la creación de un analizador para un lenguaje de programación especialmente diseñado que se basa en la utilización de 
-Autómatas Finitos Determinísticos (AFD) y Autómatas de Pila (APD). 
+Este proyecto consiste en la creación de un analizador para pseudocódigo que se basa en la utilización de Autómatas Finitos Determinísticos (AFD) y Autómatas de Pila (APD)
 
 La página del proyecto, LyC Compilator, es un entorno que permite analizar y compilar un lenguaje de programación 
 diseñado para fines educativos o demostrativos. La interfaz ofrece la posibilidad de ingresar código 
