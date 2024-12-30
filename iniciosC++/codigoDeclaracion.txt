@@ -1,0 +1,6 @@
+entero a, b, c, prim;
+real fara;
+cadena a = "hola";
+bool ab;
+entero aux;
+caracter c;
